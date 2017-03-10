@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 52044ecba4c09d045b7bbb69c6c522f4
+timeCreated: 1486013155
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 198O
+  fontNames:
+  - 198O
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

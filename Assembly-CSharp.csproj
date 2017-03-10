@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7AB2B7A7-29B6-9514-7429-37D5888FCAC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Game\Player\Scripts\Controller2D.cs" />
+     <Compile Include="Assets\Game\Player\Scripts\FuckHftInput.cs" />
+     <Compile Include="Assets\Game\Player\Scripts\Player.cs" />
+     <Compile Include="Assets\Game\Player\Scripts\PlayerHftInput.cs" />
+     <Compile Include="Assets\Game\Player\Scripts\PlayerInput.cs" />
+     <Compile Include="Assets\Game\Player\Scripts\RaycastController.cs" />
+     <Compile Include="Assets\Game\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Game\Scripts\LevelSettings.cs" />
+     <Compile Include="Assets\Game\Scripts\PlatformController.cs" />
+     <Compile Include="Assets\Game\Scripts\StageController.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\ClientRequest.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\ClientResponse.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\DnsClient.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\RequestResolver\IRequestResolver.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\RequestResolver\NullRequestResolver.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\RequestResolver\TcpRequestResolver.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\RequestResolver\UdpRequestResolver.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Client\ResponseException.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Domain.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Header.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\IMessage.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\IMessageEntry.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\IRequest.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\IResponse.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Marshalling\EndianAttribute.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Marshalling\Endianness.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Marshalling\Struct.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\OperationCode.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Question.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\RecordClass.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\RecordType.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Request.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\BaseResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\CanonicalNameResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\IPAddressResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\IResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\MailExchangeResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\NameServerResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\PointerResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\ResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\ResourceRecordFactory.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResourceRecords\StartOfAuthorityResourceRecord.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Response.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\ResponseCode.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Utils\ByteExtensions.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Utils\ByteStream.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Protocol\Utils\ObjectStringifier.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Server\DnsServer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Server\IQuestionAnswerer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\DNS\Server\MasterFile.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\GameServer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTArgParser.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTArgUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTCheck.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTConnectionManager.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTConstants.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTDialog.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTEventProcessor.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTGameConnector.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTGameOptions.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTGlobalEventEmitter.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTHappyFunTimesSettings.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTIpUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTLog.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTLogger.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTManager.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTMessageCmd.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTNoPlayers.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTPlayerManager.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTPostMessages.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTRuntimeOptions.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTSyncedClock.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTThreadSafe.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\HFTUtil.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\LocalNetPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\NetPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\PlayerConnectMessageArgs.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\PlayerConnector.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\PlayerSpawner.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\RealNetPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTCaptivePortalHandler.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTDNSRunner.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTDNSServer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTDNSServerHelper.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTDnsUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTGame.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTGameGroup.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTGameManager.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTHttpRequest.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTMimeType.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTRelayMsgs.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTRouter.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTSite.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTSocket.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTWebFileDB.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTWebFileLoader.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTWebServer.cs" />
+     <Compile Include="Assets\HappyFunTimes\HappyFunTimesCore\Server\HFTWebServerUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\character-select\Scripts\ExampleCharacterSelect.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\character-select\Scripts\ExampleCharacterSelectGameSettings.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\character-select\Scripts\ExampleCharacterSelectGoal.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\character-select\Scripts\ExampleCharacterSelectPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\multi-machine-syncedclock\Scripts\ExamplePickARandomColor.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\multi-machine-syncedclock\Scripts\ExampleRotateBySyncClock.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\multi-machine-syncedclock\Scripts\ExampleSetCameraAcrossMachines.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\multi-machine\Scripts\ColorUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\multi-machine\Scripts\MultiMachineBirdScript.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\multi-machine\Scripts\MultiMachineLevelSettings.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\simple\Scripts\ExampleSimpleGameSettings.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\simple\Scripts\ExampleSimpleGoal.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\simple\Scripts\ExampleSimplePlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\syncedclock\Scripts\SyncedClockPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\MoreSamples\syncedclock\Scripts\SyncedClockScript.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\BirdScript.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\ControllerTestScript.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\OrientationLevelSettings.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\PhonePlayerScript.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\SoundTest.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\TouchGameSettings.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\TouchGoal.cs" />
+     <Compile Include="Assets\HappyFunTimes\Samples\Scripts\TouchPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTColorUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTDirInfo.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTGamepad.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTGamepadHelper.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTGlobalSoundHelper.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTGyroscope.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTInput.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTInstructions.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTPlayerNameManager.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTReadme.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTReadmeFile.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTReadmeUtils.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTSoundPlayer.cs" />
+     <Compile Include="Assets\HappyFunTimes\Scripts\HFTSounds.cs" />
+     <Compile Include="Assets\HappyFunTimes\Tests\Scripts\HFTDnsTest.cs" />
+     <Compile Include="Assets\HappyFunTimes\Tests\Scripts\HFTStartStopTest.cs" />
+     <Compile Include="Assets\PixelCamera\PixelCamera2D\Scripts\PixelCamera2D.cs" />
+     <Compile Include="Assets\PixelCamera\PixelCamera2D\Scripts\PixelCamera2DBehaviour.cs" />
+     <Compile Include="Assets\PixelCamera\PixelCamera2DDemo\Scripts\PixelCamera2DActivator.cs" />
+     <Compile Include="Assets\PixelCamera\PixelCamera2DDemo\Scripts\Rotator.cs" />
+     <Compile Include="Assets\XInputDotNet\Examples\XInputTestCS.cs" />
+     <None Include="Assets\HappyFunTimes\MoreSamples\character-select\Scenes\HappyFunTimesCharacterSelectExample-README.txt" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\OrientationScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\MoreSamples\simple\Scenes\HappyFunTimesSimpleExample-README.txt" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\TouchScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\InstructionsScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\MoreSamples\multi-machine\Scenes\MultiMachine-README.txt" />
+     <None Include="Assets\XInputDotNet\MITLicense.txt" />
+     <None Include="Assets\HappyFunTimes\Resources\HappyFunTimesAutoGeneratedDoNotEdit\__dir__.txt" />
+     <None Include="Assets\HappyFunTimes\MoreSamples\multi-machine-syncedclock\Scenes\MultiMachineSyncedClockExample-README.txt" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\SoundTestScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\2DPlatformScene-README.txt" />
+     <None Include="Assets\WebPlayerTemplates\HappyFunTimes\controllers\gamepad\sounds\sounds.jsfx.txt" />
+     <None Include="Assets\HappyFunTimes\Shaders\HSVRangeShader.shader" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\PlayersAlreadyInHierarchyScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\Samples\Scenes\ControllerTestScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\Tests\Scenes\DNSTest-README.txt" />
+     <None Include="Assets\HappyFunTimes\MoreSamples\syncedclock\Scenes\SyncedClockScene-README.txt" />
+     <None Include="Assets\HappyFunTimes\Tests\Scenes\StartStopTest-README.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="cssparse.net">
+ <HintPath>C:/Users/manja/Desktop/battle/Assets/Plugins/cssparse.net.dll</HintPath>
+ </Reference>
+ <Reference Include="DeJson">
+ <HintPath>C:/Users/manja/Desktop/battle/Assets/Plugins/DeJson.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/manja/Desktop/battle/Assets/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="XInputDotNetPure">
+ <HintPath>C:/Users/manja/Desktop/battle/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
